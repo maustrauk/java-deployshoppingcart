@@ -27,7 +27,7 @@ public class DataSourceConfig {
         } else {
             String myURLString = "jdbc:h2:mem:testdb";
             String myDriverClass = "org.h2.Driver";
-            String myDBUser = "";
+            String myDBUser = "sa";
             String myDBPassword = "";
 
             return DataSourceBuilder.create()
